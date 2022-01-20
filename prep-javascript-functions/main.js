@@ -58,7 +58,7 @@ subtractTwoNumbers(22, 7);
 
 function getCircleCircumference(radius) {
   var circumference = 2 * Math.PI * radius;
-  console.log(circumference);
+  return (circumference);
 
 }
 
@@ -67,7 +67,7 @@ getCircleCircumference(5);
 // Get Full name Exercise
 
 function getFullName(firstName, lastName) {
-  console.log(firstName + ' ' + lastName);
+  return (firstName + ' ' + lastName);
 }
 
 getFullName('Juan', 'Ramirez');
@@ -75,7 +75,7 @@ getFullName('Juan', 'Ramirez');
 // Cube Exercise
 
 function cube(number) {
-  console.log(number * number * number);
+  return (number * number * number);
 }
 
 cube(5);
